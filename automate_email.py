@@ -35,4 +35,5 @@ for _, row in df.iterrows():
             server.login(SENDER_EMAIL, SENDER_PASSWORD)
             server.sendmail(SENDER_EMAIL, email, msg.as_string())
 
-        print(f"✅ Email sent to {name} ({email})")
+        print(f"Email sent to {name} ({email})")
+
